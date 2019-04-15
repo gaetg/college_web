@@ -1,0 +1,37 @@
+.menu {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+}
+
+.menu li {
+	display: block;
+	padding: 15px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+.menu li:first-child {
+	border-bottom-left-radius: 15px;
+	border-top-left-radius: 15px;
+}
+
+.menu li:last-child {
+	border-bottom-right-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.menu li:hover {
+	background-color: #093491;
+}
+
+.menu a {
+	color: black;
+	text-decoration: none;
+}
+
+.menu li:hover a {
+	color: white;
+} 

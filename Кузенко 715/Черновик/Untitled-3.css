@@ -1,0 +1,17 @@
+.inner {
+    background-color: red;
+    margin: 15 ps;
+    border-radius: 5px;
+
+    width: 300px;
+
+    font-size: 72px;
+    text-align: center;
+    color: white;
+}
+
+.outer {
+    display: flex;
+    flex-wrap: wrap;
+    
+}

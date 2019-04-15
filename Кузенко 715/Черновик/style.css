@@ -1,0 +1,11 @@
+.wrapper {
+	width: 400px;
+	padding: 40px;
+	margin: 0 auto;
+	border: 1px solid black;
+	border-radius: 20px;
+}
+
+.red {
+	color: red;
+}
